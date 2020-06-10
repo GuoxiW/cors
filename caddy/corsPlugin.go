@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/captncraig/cors"
+	"github.com/GuoxiW/cors"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 type corsRule struct {

@@ -20,7 +20,7 @@ go: error loading module requirements
 ```
 
 - 解决方案
-1. (最终方案)搜集 `caddy` 资料，改写 `github` 代码。
+### 1. (最终方案)搜集 `caddy` 资料，改写 `github` 代码。
 
 ```
 package main
@@ -99,7 +99,7 @@ func main() {
     github.com/mholt/caddy/caddyhttp/httpserver   ->   github.com/GuoxiW/caddy/caddyhttp/httpserver
     ```
 
-2. 修改官方 `docker` 中的 `caddy` 配置。
+  2. 修改官方 `docker` 中的 `caddy` 配置。
   
     1. 在 `github` 上 `fork` 原始版本 https://github.com/oipwg/docker
 
@@ -128,7 +128,7 @@ func main() {
     ```
 
 
-2. (未使用)直接用官方 `caddy` ，在其上修改。
+### 2. (未使用)直接用官方 `caddy` ，在其上修改。
 ```
 docker pull caddy/caddy
 ```
